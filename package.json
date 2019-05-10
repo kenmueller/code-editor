@@ -1,0 +1,29 @@
+{
+	"name": "simple-code",
+	"version": "1.0.0",
+	"description": "Simple Code made in Electron with Ace Editor",
+	"main": "lib/main.js",
+	"scripts": {
+		"start": "tsc && electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kenmueller/simple-code-desktop.git"
+	},
+	"keywords": [
+		"simple",
+		"code",
+		"code-editor",
+		"simple-code"
+	],
+	"author": "Ken Mueller",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kenmueller/simple-code-desktop/issues"
+	},
+	"homepage": "https://github.com/kenmueller/simple-code-desktop#readme",
+	"dependencies": {
+		"electron": "^5.0.1",
+		"typescript": "^3.4.5"
+	}
+}
